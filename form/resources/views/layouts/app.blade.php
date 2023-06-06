@@ -33,7 +33,7 @@
                         <li class="nav-item dropdown">
                             <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                 Messages
-                            </a>
+                            </a> 
 
                             <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="{{ route('messages-index') }}">
@@ -41,7 +41,7 @@
                                 </a>
                                 <a class="dropdown-item" href="{{ route('messages-create') }}">
                                     New message
-                                </a>
+                                </a> 
                             </div>
                         </li>
                     </ul>
@@ -84,7 +84,8 @@
                 </div>
             </div>
         </nav>
-
+        @include('layouts.messages')
+        @include('layouts.errors')
         <main class="py-4">
             @yield('content')
         </main>
