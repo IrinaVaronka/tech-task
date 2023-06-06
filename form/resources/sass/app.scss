@@ -11,10 +11,9 @@
 .form-holder {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 80vh;
+    min-height: 60vh;
 }
 
 .form-holder .form-content {
@@ -29,15 +28,15 @@
   justify-content: center;
   -webkit-align-items: center;
   align-items: center;
-  padding: 60px;
+  
 }
 
 .form-content .form-items {
-  border: 3px solid white;
+  border: 1px solid black;
   padding: 40px;
   display: inline-block;
   width: 100%;
-  min-width: 540px;
+  min-width: 500px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
